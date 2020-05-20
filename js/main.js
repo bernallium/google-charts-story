@@ -17,7 +17,7 @@
       ]);
 
       var options = {
-        region: 'Canada',
+        region: 'CA',
         displayMode: 'text',
         colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
         backgroundColor: '#81d4fa',
