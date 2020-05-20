@@ -3,10 +3,15 @@ body {
   flex-direction: column;
   background-color: whitesmoke;
   margin: 50px;
+  color: #2f4F4F;
+}
+
+.page {
+  height: 100%;
+  flex-basis: 1;
 }
 
 h1 {
-  color: rgb(26, 26, 26);
   font-size: 36px;
 }
 
@@ -16,4 +21,14 @@ p {
 
 #pie_div {
   height: 500px;
+}
+
+#regions_div {
+  width: 800px;
+  margin-bottom: 50px;
+}
+
+#timeline {
+  height: 100px;
+  margin-bottom: -125px;
 }

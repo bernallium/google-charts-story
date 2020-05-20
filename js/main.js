@@ -10,19 +10,35 @@
 
     // ─────────────────────────────────────────────────────────────────
 
+    // function drawRegionsMap() {
+    //   var data = google.visualization.arrayToDataTable([
+    //     ['Country'],
+    //     ['Canada, Ontario'],
+    //   ]);
+
+    //   var options = {
+    //     region: 'CA',
+    //     displayMode: 'text',
+    //     colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
+    //     backgroundColor: 'whitesmoke',
+    //     // datalessRegionColor: #f8bbd0,
+    //     defaultColor: '#f5f5f5',
+    //   };
+
+    //   var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    //   chart.draw(data, options);
+    // }
+
     function drawRegionsMap() {
       var data = google.visualization.arrayToDataTable([
-        ['Country', 'Popularity'],
-        ['Canada', 200],
+        ['Country'],
+        ['Canada']
       ]);
 
       var options = {
         region: 'CA',
-        displayMode: 'text',
-        colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
-        backgroundColor: '#81d4fa',
-        datalessRegionColor: '#f8bbd0',
-        defaultColor: '#f5f5f5',
+        defaultColor: '#c94949',
       };
 
       var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
@@ -46,7 +62,7 @@
         [ 'University 👨‍🔬', 'University of Toronto - Studying Biochem and Human Biology' , new Date(2010, 8, 01),  new Date(2015, 4, 1) ],
         [ 'Applications for Pharmacy School 📝', 'PCAT', new Date(2015, 4, 01),  new Date(2016, 8, 1) ],
         [ 'Pharmacy School 💊', 'Lesle Dan Factulty of Pharmacy', new Date(2016, 8, 1),  new Date(2017, 8, 1) ],
-        [ 'Self taught coding 🤓', 'Let the coding begin!', new Date(2017, 4, 01),  new Date(2018, 8, 1) ],
+        [ 'Let the coding begin! 🤓', 'Self taught coding', new Date(2017, 4, 01),  new Date(2018, 8, 1) ],
         [ 'Continuuing Education 📚', 'Ryerson University', new Date(2018, 8, 01),  new Date(2019, 8, 1) ],
         [ 'Coding Bootcamp 👨‍💻', 'General Assembly Toronto', new Date(2020, 1, 18),  new Date(2020, 4, 8) ],
         ]);
