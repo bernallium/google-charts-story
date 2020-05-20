@@ -1,0 +1,17 @@
+body {
+  padding: 64px;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: rgb(26, 26, 26);
+  font-size: 36px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+#pie_div {
+  height: 700px;
+}
